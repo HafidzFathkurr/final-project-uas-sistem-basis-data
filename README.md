@@ -57,12 +57,12 @@ Relasi antar tabel dibangun menggunakan **foreign key** untuk memastikan integri
 
 ## Struktur Repository
 ```
-├── sql/
-│   ├── database.sql
-│
 ├── documents/
-│   ├── poster.pdf
-│   └── laporan_final.pdf
+│   ├── LAPORAN UAS BASIS DATA_Hafidz Fathkurrohman(250119009)_Zalfa' Lutfi Batrisyia(250119025).pdf
+│   └── poster basis data.pdf
+|
+├── sql/
+│   └── database.sql
 │
 └── README.md
 ```
@@ -71,8 +71,8 @@ Relasi antar tabel dibangun menggunakan **foreign key** untuk memastikan integri
 
 ## Cara Menjalankan Database
 - Clone repository ini
-- Jalankan MySQL atau MariaDB
-- Jalankan file SQL
+- Jalankan MySQL melalui XAMPP
+- Jalankan file SQL melalui MySQL Workbench
 - Database siap digunakan untuk menjalankan query
 
 ---
@@ -100,6 +100,9 @@ Proyek ini menggunakan berbagai jenis query SQL untuk mengelola dan menampilkan 
 
 - **RANGE (Operator Perbandingan)**  
   Digunakan untuk menampilkan data berdasarkan batas nilai tertentu, misalnya produk dengan harga minimum dan maksimum tertentu.
+
+- **AGREGASI**  
+  Digunakan untuk melakukan perhitungan terhadap data dalam database, seperti menghitung total, rata-rata, jumlah data, nilai maksimum, atau minimum, sehingga dapat membantu analisis data transaksi.
 
 - **GROUP BY dan HAVING**  
   Digunakan untuk melakukan pengelompokan dan penyaringan data berdasarkan hasil agregasi.
